@@ -209,7 +209,9 @@ let music = document.getElementById('gameMusic');
 
 
 function playMusic() {
-    music.play();
+    for (let i =0; i <20 ; i++) {
+        music.play();
+    }
 }
 function mutedMusic(){
     music.pause();
